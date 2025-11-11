@@ -24,6 +24,9 @@ public class player_control : MonoBehaviour
 
     public float moveSpeed = 0f;
 
+    private bool ismovingright = false;
+    private bool ismovingleft = false;
+
     void Awake()
     {
         rigid2D = GetComponent<Rigidbody2D>();
@@ -54,7 +57,20 @@ public class player_control : MonoBehaviour
             isjumping = false;
         }
 
-        float key = Input.GetAxisRaw("Horizontal");    //어느쪽 방향키 눌렀는지 확인
+        float key = 0.0f;
+
+        if (ismovingright == true)
+        {
+            key = 1.0f;
+        }
+        else if (ismovingleft == true)
+        {
+            key = -1.0f;
+        }
+        else
+        {
+            key = Input.GetAxisRaw("Horizontal");    //어느쪽 방향키 눌렀는지 확인
+        }
 
         float currentX = rigid2D.linearVelocity.x;
 
@@ -121,17 +137,40 @@ public class player_control : MonoBehaviour
 
     public void Btnjump()
     {
+        if(isGrounded == true)
+        {
+            if(isjumping == false)
+            {
+                rigid2D.linearVelocity = new Vector2(0, rigid2D.linearVelocity.y);
+                rigid2D.AddForce(transform.up * jumpforce, ForceMode2D.Impulse);
+                isjumping = true;
+            }
+        }
     }
-    public void Btnright()
+    public void BtnrightDown()
     {
+        ismovingright = true;
     }
-    public void Btnleft()
-    {
 
+    public void BtnrightUp()
+    {
+        ismovingright = false;
+    }
+    public void BtnleftDown()
+    {
+        ismovingleft = true;
+    }
+    public void BtnleftUp()
+    {
+        ismovingleft = false;
     }
 
     public void HP_valueCHange(int HP)
     {
+        if (HP < 0)
+        {
+            animator.SetTrigger("trigger");
+        }
         HP_slider.value += HP;
         Debug.Log(HP_slider.value);
         if (HP_slider.value < 1)
