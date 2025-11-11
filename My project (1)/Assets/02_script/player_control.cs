@@ -1,15 +1,18 @@
 using UnityEngine;
+using UnityEngine.UI;
 public class player_control : MonoBehaviour
 {
     Rigidbody2D rigid2D;
     Animator animator;
+    public Slider HP_slider;
+    public GameObject GameOverPannel;
 
     public float jumpforce = 1.0f; //점프세기
     public float walk = 5.0f;  //걷기 속도
     public float walklimit = 2.5f;  //걷기 속도
     public float M_walk = 80.0f;  //걷기 속도
     public float M_walklimit = 90.0f;  //걷기 속도
-
+    
     bool walkStatus = false;
 
     public Transform groundCheck;  //캐릭터 발끝 위치
@@ -19,10 +22,13 @@ public class player_control : MonoBehaviour
     bool isGrounded;
     bool isjumping;
 
+    public float moveSpeed = 0f;
+
     void Awake()
     {
         rigid2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        HP_slider.value = 100;
     }
     void Start()
     {
@@ -38,7 +44,8 @@ public class player_control : MonoBehaviour
         {
             if (isjumping == false)
             {
-                rigid2D.AddForce(jumpforce * transform.up);
+                rigid2D.linearVelocity = new Vector2 (0,rigid2D.linearVelocity.y);
+                rigid2D.AddForce(transform.up * jumpforce, ForceMode2D.Impulse);
                 isjumping = true;
             }
         }
@@ -49,11 +56,16 @@ public class player_control : MonoBehaviour
 
         float key = Input.GetAxisRaw("Horizontal");    //어느쪽 방향키 눌렀는지 확인
 
-        float Speed = Mathf.Abs(rigid2D.linearVelocity.x);
-        if (Speed<=walklimit)     //속도 제한 초과하면 이동 X
-        {
-            rigid2D.AddForce(transform.right * key * walk);  // 이동
-        }
+        float currentX = rigid2D.linearVelocity.x;
+
+        float target = key * moveSpeed;
+
+        float speedchange = 5.0f;
+
+        float nextX = Mathf.MoveTowards(currentX, target, speedchange*Time.fixedDeltaTime);
+
+        rigid2D.linearVelocity = new Vector2(nextX, rigid2D.linearVelocity.y);
+
         Debug.Log(key);
         if(key == 0)
         {
@@ -109,34 +121,23 @@ public class player_control : MonoBehaviour
 
     public void Btnjump()
     {
-        if (isjumping == false)
-        {
-            rigid2D.AddForce(jumpforce * transform.up);
-            isjumping = true;
-        }
     }
     public void Btnright()
     {
-        float key = 1;
-
-        float Speed = Mathf.Abs(rigid2D.linearVelocity.x);
-        if (Speed <= M_walklimit)     //속도 제한 초과하면 이동 X
-        {
-            rigid2D.AddForce(transform.right * key * M_walk);  // 이동
-        }
-
-        transform.localScale = new Vector3(key, 1, 1);
     }
     public void Btnleft()
     {
-        float key = -1;
 
-        float Speed = Mathf.Abs(rigid2D.linearVelocity.x);
-        if (Speed <= M_walklimit)     //속도 제한 초과하면 이동 X
+    }
+
+    public void HP_valueCHange(int HP)
+    {
+        HP_slider.value += HP;
+        Debug.Log(HP_slider.value);
+        if (HP_slider.value < 1)
         {
-            rigid2D.AddForce(transform.right * key * M_walk);  // 이동
+            GameOverPannel.SetActive(true);
+
         }
-        
-        transform.localScale = new Vector3(key, 1, 1);
     }
 }
