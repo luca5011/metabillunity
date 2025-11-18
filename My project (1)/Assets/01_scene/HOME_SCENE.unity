@@ -543,10 +543,10 @@ RectTransform:
   - {fileID: 1252946213}
   m_Father: {fileID: 1472615491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 80}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -155}
+  m_SizeDelta: {x: 600, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236874043
 MonoBehaviour:
@@ -669,7 +669,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 419474248}
+        m_TargetAssemblyTypeName: Gamesetting, Assembly-CSharp
+        m_MethodName: ToggleValueChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 1
 --- !u!1 &268452497
 GameObject:
@@ -1012,6 +1024,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416250833}
   m_CullTransparentMesh: 1
+--- !u!114 &419474248 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1410052773532059331, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+  m_PrefabInstance: {fileID: 709722524562777759}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbfaaae00618de41903b1a51c2c29b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &872662362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1146,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 872662366}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 419474248}
+        m_TargetAssemblyTypeName: Gamesetting, Assembly-CSharp
+        m_MethodName: SettingPanel
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &872662366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1271,10 +1306,10 @@ RectTransform:
   - {fileID: 261234025}
   m_Father: {fileID: 1472615491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 80}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -40}
+  m_SizeDelta: {x: 600, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &884252920
 MonoBehaviour:
@@ -1639,7 +1674,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1104561819}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 419474248}
+        m_TargetAssemblyTypeName: Gamesetting, Assembly-CSharp
+        m_MethodName: SettingPanel
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1104561819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1770,7 +1817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1116494429
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2160,7 +2207,19 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 419474248}
+        m_TargetAssemblyTypeName: Gamesetting, Assembly-CSharp
+        m_MethodName: DropdownValueChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1252946215
 MonoBehaviour:
@@ -3519,6 +3578,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127181679}
   m_CullTransparentMesh: 1
+--- !u!1001 &709722524562777759
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1410052773532059331, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: settingPanel
+      value: 
+      objectReference: {fileID: 1116494428}
+    - target: {fileID: 1410052773532059331, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: UI_SoundToggle
+      value: 
+      objectReference: {fileID: 261234026}
+    - target: {fileID: 1410052773532059331, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: UI_difficultyDropdown
+      value: 
+      objectReference: {fileID: 1252946214}
+    - target: {fileID: 2605295607655351124, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_Name
+      value: GameSettingManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1320
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 675.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165645894150317958, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 264e9f594c1d6884c84c66e28f830d39, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3528,3 +3656,4 @@ SceneRoots:
   - {fileID: 1443485746}
   - {fileID: 1946702196}
   - {fileID: 1752488606}
+  - {fileID: 709722524562777759}
