@@ -8,7 +8,7 @@ public class Apple_object : MonoBehaviour
         Debug.Log("°¨Áö" + collision.gameObject.name);
         if (collision.gameObject.name == "player")
         {
-            collision.gameObject.GetComponent<player_control>().HP_valueCHange(7);
+            collision.gameObject.GetComponent<player_control>().HP_valueCHange(20);
 
             Destroy(this.gameObject);
         }
