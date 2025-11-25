@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class Wheel_object : MonoBehaviour
+public class DamageObject : MonoBehaviour
 {
     public int Value_int;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("감지"+collision.gameObject.name);
-        if(collision.gameObject.name == "player")
+        Debug.Log("감지" + collision.gameObject.name);
+        if (collision.gameObject.name == "player")
         {
             collision.gameObject.GetComponent<player_control>().HP_valueCHange(Value_int);
         }

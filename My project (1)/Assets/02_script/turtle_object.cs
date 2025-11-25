@@ -3,6 +3,7 @@ using UnityEngine;
 public class turtle_object : MonoBehaviour
 {
     public CapsuleCollider2D circle;
+    public int damage = -20;
     public void Turtle__ON()
     {
         circle.enabled = true;
@@ -17,7 +18,7 @@ public class turtle_object : MonoBehaviour
         Debug.Log("°¨Áö" + collision.gameObject.name);
         if (collision.gameObject.name == "player")
         {
-            collision.gameObject.GetComponent<player_control>().HP_valueCHange(20);
+            collision.gameObject.GetComponent<player_control>().HP_valueCHange(damage);
         }
 
 
