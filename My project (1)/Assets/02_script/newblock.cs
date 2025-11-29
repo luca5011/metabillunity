@@ -18,6 +18,7 @@ public class newblock : MonoBehaviour
         {
             hide.SetActive(true);
             secret.SetActive(true);
+
         }
     }
 }

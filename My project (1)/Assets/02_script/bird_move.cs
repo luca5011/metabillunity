@@ -15,8 +15,7 @@ public class bird_move : MonoBehaviour
 
     void Update()
     {
-
-        transform.Translate(speed * direction, 0, 0);
+        transform.Translate(speed * direction * Time.deltaTime, 0, 0);
 
         // 범위를 벗어나면 방향 전환
         if (transform.position.x > startX + move)

@@ -1,4 +1,6 @@
+
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class player_control : MonoBehaviour
 {
@@ -12,7 +14,8 @@ public class player_control : MonoBehaviour
     public float walklimit = 2.5f;  //걷기 속도
     public float M_walk = 80.0f;  //걷기 속도
     public float M_walklimit = 90.0f;  //걷기 속도
-    
+    public float start_HP = 100.0f;  //초기 HP
+
     bool walkStatus = false;
 
     public Transform groundCheck;  //캐릭터 발끝 위치
@@ -31,7 +34,7 @@ public class player_control : MonoBehaviour
     {
         rigid2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        HP_slider.value = 100;
+        HP_slider.value = start_HP;
     }
     void Start()
     {
@@ -105,7 +108,11 @@ public class player_control : MonoBehaviour
             transform.localScale = new Vector3(key,1,1);   // 방향 대칭
         }
 
-
+        if (HP_slider.value > 0)
+        {
+            string NowSceneName = SceneManager.GetActiveScene().name;
+            Application.LoadLevel(NowSceneName);
+        }
 
 
     }
