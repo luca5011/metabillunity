@@ -16,17 +16,19 @@ public class bird_move : MonoBehaviour
     void Update()
     {
         transform.Translate(speed * direction * Time.deltaTime, 0, 0);
+        float X_pos = Mathf.Abs(transform.localScale.x);
 
         // 범위를 벗어나면 방향 전환
         if (transform.position.x > startX + move)
         {
             direction = -1;
-            transform.localScale = new Vector3(1, 1, 1);
+            
+            transform.localScale = new Vector3(X_pos, transform.localScale.y, transform.localScale.z);
         }
         else if (transform.position.x < startX - move)
         {
             direction = 1;
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-X_pos, transform.localScale.y, transform.localScale.z);
         }
     }
 }

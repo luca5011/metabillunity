@@ -15,6 +15,8 @@ public class player_control : MonoBehaviour
     public float M_walk = 80.0f;  //걷기 속도
     public float M_walklimit = 90.0f;  //걷기 속도
     public float start_HP = 100.0f;  //초기 HP
+    [Header("스테이지가 0이하면 체크")]
+    public bool zero_down = false;
 
     bool walkStatus = false;
 
@@ -108,7 +110,7 @@ public class player_control : MonoBehaviour
             transform.localScale = new Vector3(key,1,1);   // 방향 대칭
         }
 
-        if (HP_slider.value > 0)
+        if (HP_slider.value > 0 && zero_down == true)
         {
             string NowSceneName = SceneManager.GetActiveScene().name;
             Application.LoadLevel(NowSceneName);

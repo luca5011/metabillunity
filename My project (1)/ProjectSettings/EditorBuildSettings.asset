@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01_scene/game_minus1.unity
     guid: d62508065d5aac04c9c00f4ebde0a93f
+  - enabled: 1
+    path: Assets/01_scene/game_minus2.unity
+    guid: 5e65eb56e44b6f54a8bd345653e37386
+  - enabled: 1
+    path: Assets/01_scene/not_an_ending.unity
+    guid: d5d4239d153199d4a99d367b163271dc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
