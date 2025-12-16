@@ -428,7 +428,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02995b292aa922a49a2480494ef73108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP_slider: {fileID: 1579261440}
   Nextscene: game_00
+  flag: 0
 --- !u!4 &78741983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4839304324616637797, guid: cbf18c734dacda3489cf96ca9b3fd8b6, type: 3}
@@ -942,6 +944,8 @@ GameObject:
   m_Component:
   - component: {fileID: 274159882}
   - component: {fileID: 274159881}
+  - component: {fileID: 274159883}
+  - component: {fileID: 274159884}
   m_Layer: 0
   m_Name: End (Idle)
   m_TagString: Untagged
@@ -1019,6 +1023,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1961157660}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &274159883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274159880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02995b292aa922a49a2480494ef73108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP_slider: {fileID: 1579261440}
+  Nextscene: Game 2
+  flag: 1
+--- !u!70 &274159884
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274159880}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.004137039, y: -0.101363614}
+  m_Size: {x: 0.32556534, y: 0.43727276}
+  m_Direction: 0
 --- !u!4 &282861915 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7229587100353649092, guid: 949f23de4e89d294a9f30d41439b2da3, type: 3}
@@ -5105,6 +5161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08450574149796147983d704b3cf3035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  homeScene: 0
   KeyAfterObject:
   - {fileID: 941124385}
   - {fileID: 861519212}

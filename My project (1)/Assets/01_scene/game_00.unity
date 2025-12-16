@@ -5020,7 +5020,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02995b292aa922a49a2480494ef73108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP_slider: {fileID: 28901780}
   Nextscene: game_minus1
+  flag: 0
 --- !u!61 &1413583113
 BoxCollider2D:
   m_ObjectHideFlags: 0
