@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\player_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\player_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\groundcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\groundcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\0511k\\documents\\github\\metabillunity\\my project (1)\\assets\\02_script\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\damageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\damageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\groundcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\groundcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\player_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\player_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\recovery_object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,11 +94,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Keyobject.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Keyobject.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\Keyobject.cs",
@@ -106,8 +106,7 @@
               "RelativeToolTip": "Assets\\02_script\\Keyobject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T10:32:30.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T10:32:30.488Z"
             },
             {
               "$type": "Document",
@@ -131,12 +130,11 @@
               "RelativeToolTip": "Assets\\02_script\\recovery_object.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:49:29.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T10:49:29.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DamageObject.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\DamageObject.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\DamageObject.cs",
@@ -144,18 +142,17 @@
               "RelativeToolTip": "Assets\\02_script\\DamageObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:26:17.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T10:26:17.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GroundCondition.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\GroundCondition.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\GroundCondition.cs",
               "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\GroundCondition.cs",
               "RelativeToolTip": "Assets\\02_script\\GroundCondition.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T10:10:54.084Z",
               "EditorCaption": ""
@@ -173,13 +170,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "player_control.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\player_control.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\player_control.cs",
               "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\player_control.cs",
               "RelativeToolTip": "Assets\\02_script\\player_control.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAxwC8AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T08:55:48.094Z",
               "EditorCaption": ""
@@ -198,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "portal.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\portal.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\portal.cs",
