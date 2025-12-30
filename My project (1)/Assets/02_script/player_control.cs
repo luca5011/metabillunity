@@ -21,7 +21,7 @@ public class player_control : MonoBehaviour
     bool walkStatus = false;
 
     public Transform groundCheck;  //캐릭터 발끝 위치
-    public float groundRadius = 0.15f;  //원 반지름
+    public float groundRadius = 1.0f;  //원 반지름
     public LayerMask groundMask;  //ground 레이어 확인
 
     bool isGrounded;
@@ -41,6 +41,12 @@ public class player_control : MonoBehaviour
     void Start()
     {
         
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(groundCheck.position, groundRadius);
     }
     void FixedUpdate()
     {
