@@ -86,7 +86,7 @@ public class BossPattern1_Control : MonoBehaviour
 
     void PatternShot(int index)
     {
-        /*
+        
         //Â¦¼ö
         Vector2 dir = vector2List[index];
         GameObject bulletCreat = Instantiate(bulletPrefab,
@@ -94,7 +94,7 @@ public class BossPattern1_Control : MonoBehaviour
             Quaternion.identity,
             pattern_1_C1.transform);
 
-        bulletCreat.GetComponent<Rigidbody2D>().linearVelocity = dir * Speed;*/
+        bulletCreat.GetComponent<Rigidbody2D>().linearVelocity = dir * Speed;
     }
 
 

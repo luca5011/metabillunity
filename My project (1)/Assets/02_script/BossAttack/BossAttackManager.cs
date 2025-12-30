@@ -27,10 +27,10 @@ public class BossAttackManager : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        /*if (Input.GetKeyDown(KeyCode.Space))
         {
             FireBullet();
-        }
+        }*/
     }
 
     void FireBullet()
