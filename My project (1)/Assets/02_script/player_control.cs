@@ -183,7 +183,7 @@ public class player_control : MonoBehaviour
         ismovingleft = false;
     }
 
-    public void HP_valueCHange(int HP)
+    public void HP_valueCHange(float HP)
     {
         if (HP < 0)
         {

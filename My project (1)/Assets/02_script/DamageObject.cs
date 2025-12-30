@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DamageObject : MonoBehaviour
 {
-    public int Value_int;
+    public float Value_int;
 
     void OnCollisionEnter2D(Collision2D collision)
     {

@@ -24,6 +24,24 @@ public class BossPattern2_tornado : MonoBehaviour
     private void OnParticleTrigger()
     {
         ps.GetTriggerParticles(ParticleSystemTriggerEventType.Inside, inside_);
+        for (int i = 0; i < inside_.Count; i++)
+        {
+            Vector3 hitPos = inside_[i].position;
+            float detectradius = 0.2f;
+            Collider2D[] hits = Physics2D.OverlapCircleAll(hitPos, detectradius);
+            foreach(var hit in hits)
+            {
+                if(hit.gameObject.name == "player")
+                {
+                    Debug.Log("ÆÄÆ¼Å¬" + hit.gameObject.name);
+                    hit.gameObject.GetComponent<player_control>().HP_valueCHange(-0.05f);
+                }
+                if (hit.gameObject.CompareTag("Boss"))
+                {
+                    hit.gameObject.GetComponent<BossAttackManager>().Boss_Hp_valueChange(-0.1f);
+                }
+            }
+        }
         Debug.Log("Effect Trigger");
         
     }
