@@ -34,6 +34,9 @@ public class player_control : MonoBehaviour
 
     void Awake()
     {
+        Application.targetFrameRate = 60;
+        QualitySettings.vSyncCount = 0;
+
         rigid2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         HP_slider.value = start_HP;

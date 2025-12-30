@@ -70,7 +70,7 @@ public class BossPattern1_Control : MonoBehaviour
         while (Pattern1_Active)
         {
             //È¸Àü
-            pattern_1_C1.transform.Rotate(0, 0, 30f * Time.deltaTime);
+            pattern_1_C1.transform.Rotate(0, 0, 70f * Time.deltaTime);
             yield return null;
         }
 
