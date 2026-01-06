@@ -13,6 +13,7 @@ public class BossAttackManager : MonoBehaviour
         if (Boss_Hp_slider.value <= 0)
         {
             Debug.Log("º¸½ºÁ×À½");
+            Application.LoadLevel("not_an_ending");
         }
         else
         {

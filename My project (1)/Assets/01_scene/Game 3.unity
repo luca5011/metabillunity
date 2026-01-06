@@ -3375,7 +3375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP_slider: {fileID: 1579261440}
-  Nextscene: not_an_ending
+  Nextscene: Boss_scene
   flag: 1
 --- !u!212 &1601264186
 SpriteRenderer:

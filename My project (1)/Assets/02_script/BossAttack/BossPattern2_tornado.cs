@@ -38,7 +38,7 @@ public class BossPattern2_tornado : MonoBehaviour
                 }
                 if (hit.gameObject.CompareTag("Boss"))
                 {
-                    hit.gameObject.GetComponent<BossAttackManager>().Boss_Hp_valueChange(-0.1f);
+                    hit.gameObject.GetComponent<BossAttackManager>().Boss_Hp_valueChange(-0.017f);
                 }
             }
         }
