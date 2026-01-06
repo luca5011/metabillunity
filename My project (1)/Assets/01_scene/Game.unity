@@ -990,6 +990,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d73788f3d5f805478440368d2e16e46, type: 3}
+--- !u!1 &250903061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2606021041470801125, guid: 9d73788f3d5f805478440368d2e16e46, type: 3}
+  m_PrefabInstance: {fileID: 250903060}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &258323706 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9105345576609743398, guid: ad3b95682c2b8aa48a2bec5cf025d30b, type: 3}
@@ -4950,6 +4955,8 @@ MonoBehaviour:
   HP_slider: {fileID: 1579261440}
   hide: {fileID: 647199642}
   secret: {fileID: 1370815748}
+  recover: {fileID: 250903061}
+  recover2: {fileID: 1643211932}
 --- !u!4 &1504993358
 Transform:
   m_ObjectHideFlags: 0
@@ -5448,6 +5455,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d73788f3d5f805478440368d2e16e46, type: 3}
+--- !u!1 &1643211932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2606021041470801125, guid: 9d73788f3d5f805478440368d2e16e46, type: 3}
+  m_PrefabInstance: {fileID: 1643211931}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1643619760
 GameObject:
   m_ObjectHideFlags: 0

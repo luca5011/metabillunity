@@ -5,7 +5,8 @@ public class newblock : MonoBehaviour
     public Slider HP_slider;
     public GameObject hide;
     public GameObject secret;
-
+    public GameObject recover;
+    public GameObject recover2;
     void Start()
     {
         
@@ -18,7 +19,8 @@ public class newblock : MonoBehaviour
         {
             hide.SetActive(true);
             secret.SetActive(true);
-
+            recover.SetActive(true);
+            recover2.SetActive(true);
         }
     }
 }

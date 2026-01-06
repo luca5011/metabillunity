@@ -15,7 +15,7 @@ public class player_control : MonoBehaviour
     public float M_walk = 80.0f;  //걷기 속도
     public float M_walklimit = 90.0f;  //걷기 속도
     public float start_HP = 100.0f;  //초기 HP
-    [Header("스테이지가 0이하면 체크")]
+    [Header("스테이지가 0 이하면 체크")]
     public bool zero_down = false;
 
     bool walkStatus = false;

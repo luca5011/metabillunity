@@ -3192,6 +3192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Boss_Hp_slider: {fileID: 1684385060}
+  Player_HP_slider: {fileID: 1664011558}
 --- !u!212 &1514677263
 SpriteRenderer:
   m_ObjectHideFlags: 0
