@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\newblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\newblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\0511k\\documents\\github\\metabillunity\\my project (1)\\assets\\02_script\\player_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\player_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\bossattack\\bosspattern2_tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\bossattack\\bosspattern2_tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\bossattack\\bossattackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\bossattack\\bossattackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\bossattack\\bosspattern2_tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\bossattack\\bosspattern2_tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\0511k\\documents\\github\\metabillunity\\my project (1)\\assets\\02_script\\newblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\newblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\player_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\player_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\keyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,11 +94,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "player_control.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\player_control.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\player_control.cs",
@@ -107,32 +107,7 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAuwBcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T08:55:48.094Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Keyobject.cs",
-              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Keyobject.cs",
-              "RelativeDocumentMoniker": "Assets\\02_script\\Keyobject.cs",
-              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Keyobject.cs",
-              "RelativeToolTip": "Assets\\02_script\\Keyobject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T10:32:30.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "recovery_object.cs",
-              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\recovery_object.cs",
-              "RelativeDocumentMoniker": "Assets\\02_script\\recovery_object.cs",
-              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\recovery_object.cs",
-              "RelativeToolTip": "Assets\\02_script\\recovery_object.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:49:29.669Z"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -160,15 +135,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BossAttackManager.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\BossAttack\\BossAttackManager.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\BossAttack\\BossAttackManager.cs",
               "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\BossAttack\\BossAttackManager.cs",
               "RelativeToolTip": "Assets\\02_script\\BossAttack\\BossAttackManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T10:15:17.072Z"
+              "WhenOpened": "2025-12-28T10:15:17.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -207,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "newblock.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\newblock.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\newblock.cs",
@@ -220,6 +196,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BossPattern2_tornado.cs",
+              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\BossAttack\\BossPattern2_tornado.cs",
+              "RelativeDocumentMoniker": "Assets\\02_script\\BossAttack\\BossPattern2_tornado.cs",
+              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\BossAttack\\BossPattern2_tornado.cs",
+              "RelativeToolTip": "Assets\\02_script\\BossAttack\\BossPattern2_tornado.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA8wC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T12:16:27.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "recovery_object.cs",
+              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\recovery_object.cs",
+              "RelativeDocumentMoniker": "Assets\\02_script\\recovery_object.cs",
+              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\recovery_object.cs",
+              "RelativeToolTip": "Assets\\02_script\\recovery_object.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T10:49:29.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Keyobject.cs",
+              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Keyobject.cs",
+              "RelativeDocumentMoniker": "Assets\\02_script\\Keyobject.cs",
+              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Keyobject.cs",
+              "RelativeToolTip": "Assets\\02_script\\Keyobject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T10:32:30.488Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BossPattern1_Control.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\BossAttack\\BossPattern1_Control.cs",
@@ -229,18 +242,6 @@
               "ViewState": "AgIAAB4AAAAAAAAAAAAuwEgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-23T11:55:54.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BossPattern2_tornado.cs",
-              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\BossAttack\\BossPattern2_tornado.cs",
-              "RelativeDocumentMoniker": "Assets\\02_script\\BossAttack\\BossPattern2_tornado.cs",
-              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\BossAttack\\BossPattern2_tornado.cs",
-              "RelativeToolTip": "Assets\\02_script\\BossAttack\\BossPattern2_tornado.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwC4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T12:16:27.19Z"
             },
             {
               "$type": "Document",
