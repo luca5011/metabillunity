@@ -13,7 +13,9 @@ public class portal : MonoBehaviour
         {
             if (!flag || HP_slider.value>0)
             {
-                Application.LoadLevel(Nextscene);
+                GameObject.Find("player").GetComponent<CapsuleCollider2D>().enabled = false;
+                //Application.LoadLevel(Nextscene);
+                AnalyticsManager.Instance.LogStageClear(Nextscene);
             }
         }
 

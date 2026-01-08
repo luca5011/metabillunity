@@ -2413,10 +2413,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 390712854}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26, y: 134.65}
-  m_SizeDelta: {x: 289.0773, y: 30.004}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 123.04}
+  m_SizeDelta: {x: 0, y: 30.003998}
   m_Pivot: {x: 0.5370554, y: 1.0000001}
 --- !u!114 &808585365
 MonoBehaviour:
@@ -2445,7 +2445,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3193,6 +3193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Boss_Hp_slider: {fileID: 1684385060}
   Player_HP_slider: {fileID: 1664011558}
+  analyticsManager: {fileID: 0}
 --- !u!212 &1514677263
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3577,7 +3578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -519.3, y: -71.2}
+  m_AnchoredPosition: {x: -547.7, y: -67.996}
   m_SizeDelta: {x: 175.7249, y: 62.588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1684385060

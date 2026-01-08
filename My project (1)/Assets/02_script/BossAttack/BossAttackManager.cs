@@ -8,13 +8,17 @@ public class BossAttackManager : MonoBehaviour
     public Slider Boss_Hp_slider;
     public Slider Player_HP_slider;
 
+    public AnalyticsManager analyticsManager;
+
+    bool flag = true;
+
     public void Boss_Hp_valueChange(float changeValue)
     {
         Boss_Hp_slider.value += changeValue;
-        if (Boss_Hp_slider.value <= 0 && Player_HP_slider.value>0)
+        if (Boss_Hp_slider.value <= 0 && Player_HP_slider.value>0 && flag)
         {
-            Debug.Log("º¸½ºÁ×À½");
-            Application.LoadLevel("not_an_ending");
+            AnalyticsManager.Instance.LogStageClear("not_an_ending");
+            flag = false;
         }
         else
         {
