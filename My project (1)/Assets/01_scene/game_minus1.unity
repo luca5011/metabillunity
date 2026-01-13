@@ -2969,7 +2969,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tip : \uAC70\uBD81\uC774\uB294 \uAC00\uC2DC\uAC00 \uB098\uC640\uC788\uC744\uB584\uB9CC
+  m_Text: "Tip : \uAC70\uBD81\uC774\uB294 \uAC00\uC2DC\uAC00 \uB098\uC640\uC788\uC744\uB54C\uB9CC
     \uBC1F\uC744 \uC218 \uC788\uB2E4."
 --- !u!222 &1106748230
 CanvasRenderer:

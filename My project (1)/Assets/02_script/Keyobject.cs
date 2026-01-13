@@ -8,6 +8,6 @@ public class Keyobject : MonoBehaviour
         print(collision.name);
         PlayerPrefs.SetInt("Key", 1);
 
-        Application.LoadLevel("Game 1");
+        Application.LoadLevel("Game_1");
     }
 }

@@ -30,13 +30,13 @@ EditorBuildSettings:
     path: Assets/01_scene/game_minus4.unity
     guid: e3fcc7c8cbb3cc945b88158758698381
   - enabled: 1
-    path: Assets/01_scene/Game 1.unity
+    path: Assets/01_scene/Game_1.unity
     guid: ca24369c5a37b284cb9c642f1ed303c2
   - enabled: 1
-    path: Assets/01_scene/Game 2.unity
+    path: Assets/01_scene/Game_2.unity
     guid: e55ebc9dc4b3cb74a852502971ceb33f
   - enabled: 1
-    path: Assets/01_scene/Game 3.unity
+    path: Assets/01_scene/Game_3.unity
     guid: b6bf79e53e63749458da1d287840d87b
   - enabled: 1
     path: Assets/01_scene/Boss_scene.unity
