@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01_scene/Boss_scene.unity
     guid: 70651f1847fab404b8671e0ba6806692
+  - enabled: 0
+    path: Assets/01_scene/enter_phonenumber.unity
+    guid: 582ee7217cbe02d44b823fa490dcfdb3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

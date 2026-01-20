@@ -1,8 +1,9 @@
+using System;
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
-using System.Collections;
-using System;
 
 public class AnalyticsManager : MonoBehaviour
 {
@@ -107,5 +108,34 @@ public class AnalyticsManager : MonoBehaviour
     {
         // 메모리 누수 방지를 위한 이벤트 해제
         SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    public void LogEventEnd(string name, string userPhone)
+    {
+        StartCoroutine(SendEventEndLog(name, userPhone));
+    }
+
+    IEnumerator SendEventEndLog(string name, string userPhone)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("gameId", gameId);
+        form.AddField("userUuid", userUuid);
+        form.AddField("userName", name);
+        form.AddField("userPhone", userPhone);
+
+        using (UnityWebRequest www = UnityWebRequest.Post("https://metavillab.com/firebase/api/game/game_userdataSave_a1.php", form))
+        {
+            yield return www.SendWebRequest();
+
+            if (www.result == UnityWebRequest.Result.Success)
+            {
+                Debug.Log("엔딩로그 전송성공");
+            }
+            else
+            {
+                Debug.LogError($"엔딩로그 전송실패: {www.error}");
+            }
+        }
+        yield break;
     }
 }
