@@ -8,10 +8,7 @@ public class Endeventcontroller : MonoBehaviour
 
     public GameObject SavePopup;
 
-    void Start()
-    {
-        
-    }
+ 
 
     public void Popup_submitBtn()
     {
