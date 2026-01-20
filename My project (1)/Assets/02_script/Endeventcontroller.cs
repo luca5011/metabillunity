@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class Endeventcontroller : MonoBehaviour
 {
-    public InputField nameinput;
-    public InputField phoneinput;
+    public TMP_InputField nameinput;
+    public TMP_InputField phoneinput;
 
     public GameObject SavePopup;
 
