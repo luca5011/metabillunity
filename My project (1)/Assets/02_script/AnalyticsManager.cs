@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
@@ -123,7 +122,10 @@ public class AnalyticsManager : MonoBehaviour
         form.AddField("userName", name);
         form.AddField("userPhone", userPhone);
 
-        using (UnityWebRequest www = UnityWebRequest.Post("https://metavillab.com/firebase/api/game/game_userdataSave_a1.php", form))
+        //action°ª ¹Ý¿µ
+        form.AddField("action", "event_entry");
+
+        using (UnityWebRequest www = UnityWebRequest.Post("https://metavillab.com/firebase/api/game/game_eventEnd_a1.php", form))
         {
             yield return www.SendWebRequest();
 
