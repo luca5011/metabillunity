@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\recovery_object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\endeventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\endeventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\0511k\\documents\\github\\metabillunity\\my project (1)\\assets\\02_script\\recovery_object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\recovery_object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\0511k\\documents\\github\\metabillunity\\my project (1)\\assets\\02_script\\analyticsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\analyticsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\analyticsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\endeventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\02_script\\endeventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\assets\\02_script\\bird_move_up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -153,54 +153,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Keyobject.cs",
-              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Keyobject.cs",
-              "RelativeDocumentMoniker": "Assets\\02_script\\Keyobject.cs",
-              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Keyobject.cs",
-              "RelativeToolTip": "Assets\\02_script\\Keyobject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T10:32:30.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SceneManager1.cs",
-              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\SceneManager1.cs",
-              "RelativeDocumentMoniker": "Assets\\02_script\\SceneManager1.cs",
-              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\SceneManager1.cs",
-              "RelativeToolTip": "Assets\\02_script\\SceneManager1.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T11:38:31.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "bird_move_up.cs",
-              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\bird_move_up.cs",
-              "RelativeDocumentMoniker": "Assets\\02_script\\bird_move_up.cs",
-              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\bird_move_up.cs",
-              "RelativeToolTip": "Assets\\02_script\\bird_move_up.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T04:26:29.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "versiondisplay.cs",
-              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\versiondisplay.cs",
-              "RelativeDocumentMoniker": "Assets\\02_script\\versiondisplay.cs",
-              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\versiondisplay.cs",
-              "RelativeToolTip": "Assets\\02_script\\versiondisplay.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T02:03:06.583Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "BossPattern1_Control.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\BossAttack\\BossPattern1_Control.cs",
@@ -213,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "recovery_object.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\recovery_object.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\recovery_object.cs",
@@ -238,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AnalyticsManager.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\AnalyticsManager.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\AnalyticsManager.cs",
@@ -246,8 +198,7 @@
               "RelativeToolTip": "Assets\\02_script\\AnalyticsManager.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAiwIwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T01:51:05.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T01:51:05.629Z"
             },
             {
               "$type": "Document",
@@ -263,15 +214,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Endeventcontroller.cs",
               "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Endeventcontroller.cs",
               "RelativeDocumentMoniker": "Assets\\02_script\\Endeventcontroller.cs",
               "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Endeventcontroller.cs",
               "RelativeToolTip": "Assets\\02_script\\Endeventcontroller.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T02:03:38.851Z"
+              "WhenOpened": "2026-01-20T02:03:38.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "versiondisplay.cs",
+              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\versiondisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\02_script\\versiondisplay.cs",
+              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\versiondisplay.cs",
+              "RelativeToolTip": "Assets\\02_script\\versiondisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T02:03:06.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bird_move_up.cs",
+              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\bird_move_up.cs",
+              "RelativeDocumentMoniker": "Assets\\02_script\\bird_move_up.cs",
+              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\bird_move_up.cs",
+              "RelativeToolTip": "Assets\\02_script\\bird_move_up.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T04:26:29.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SceneManager1.cs",
+              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\SceneManager1.cs",
+              "RelativeDocumentMoniker": "Assets\\02_script\\SceneManager1.cs",
+              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\SceneManager1.cs",
+              "RelativeToolTip": "Assets\\02_script\\SceneManager1.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:38:31.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Keyobject.cs",
+              "DocumentMoniker": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Keyobject.cs",
+              "RelativeDocumentMoniker": "Assets\\02_script\\Keyobject.cs",
+              "ToolTip": "C:\\Users\\0511k\\Documents\\GitHub\\metabillunity\\My project (1)\\Assets\\02_script\\Keyobject.cs",
+              "RelativeToolTip": "Assets\\02_script\\Keyobject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T10:32:30.488Z"
             },
             {
               "$type": "Document",
